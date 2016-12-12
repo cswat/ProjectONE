@@ -4,7 +4,7 @@ using System.Collections;
 public class SimplePlatformController : MonoBehaviour {
 
 	public bool facingRight = true;
-	public bool jump = true;
+	public bool jump = false;
 
 	public float moveForce = 365;
 	public float maxSpeed = 5f;
